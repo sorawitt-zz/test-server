@@ -7,7 +7,7 @@ app.get('/', (req, res) => {
     res.send('<h1>Hello Fucking World</h1>');
 });
 
-var childAbility = { "child_ability" : {
+var childAbility = {
   "ability_group_one" : "1.0",
   "ability_group_two" : "0.30",
   "ability_group_three" : "2.0",
@@ -75,7 +75,6 @@ var childAbility = { "child_ability" : {
         },
       ]
   }
-}
 }
 ;
 
