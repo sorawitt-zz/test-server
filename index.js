@@ -16,36 +16,64 @@ var childAbility = { "child_ability" : {
   "next_activity" : {
       "activity" : "button",
       "level": "easy",
-      "questions" : {
-        "0": {
+      "questions" : [
+        {
           "item_id": 1,
           "question": "ช้าง",
           "question_content_id": 1,
           "member_question_content_id": 1,
           "difficulty": 1.234,
           "discrimination": 2.345,
-          "choices": {
-            "1": {
+          "choices": [
+            {
               "id": 1,
               "item_id": 1,
               "choice": "ช",
               "correct_answer": 1
             },
-            "2": {
+            {
               "id": 2,
               "item_id": 1,
               "choice": "ก",
               "correct_answer": 0
             },
-            "3": {
+            {
               "id": 3,
               "item_id": 1,
               "choice": "ค",
               "correct_answer": 0
             },
-          },
+          ],
         },
-      }
+        {
+          "item_id": 1,
+          "question": "ช้าง",
+          "question_content_id": 1,
+          "member_question_content_id": 1,
+          "difficulty": 1.234,
+          "discrimination": 2.345,
+          "choices": [
+            {
+              "id": 1,
+              "item_id": 1,
+              "choice": "ช",
+              "correct_answer": 1
+            },
+            {
+              "id": 2,
+              "item_id": 1,
+              "choice": "ก",
+              "correct_answer": 0
+            },
+            {
+              "id": 3,
+              "item_id": 1,
+              "choice": "ค",
+              "correct_answer": 0
+            },
+          ],
+        },
+      ]
   }
 }
 }
