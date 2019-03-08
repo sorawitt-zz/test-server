@@ -8,11 +8,11 @@ app.get('/', (req, res) => {
 });
 
 var childAbility = {
-  "ability_group_one" : "1.0",
-  "ability_group_two" : "0.30",
-  "ability_group_three" : "2.0",
-  "ability_group_four" : "0.5",
-  "ability_group_five" : "1.5",
+  "ability_group_one" : 1.0,
+  "ability_group_two" : 0.30,
+  "ability_group_three" : 2.0,
+  "ability_group_four" : 0.5,
+  "ability_group_five" : 1.5,
   "next_activity" : {
       "activity" : "button",
       "level": "easy",
