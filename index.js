@@ -16,6 +16,7 @@ app.get('/api/childAbility', (req, res) => {
 })
 
 app.get('/api/items', (req, res) => {
+  console.log(items)
   res.send(items)
 })
 

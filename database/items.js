@@ -1,6 +1,5 @@
 
-function getItems() {
-  return [
+const items = [
     {
         "id": 139,
         "topic_id": 1,
@@ -237,11 +236,8 @@ function getItems() {
         ]
     }
 ]
-}
 
-
-function getChildAbility() {
-  var childAbility = {
+  const childAbility = {
     "ability_group_one" : 1.0,
     "ability_group_two" : 0.30,
     "ability_group_three" : 2.0,
@@ -311,8 +307,6 @@ function getChildAbility() {
     }
   }
 
-  return childAbility
-}
-
-module.exports.getItems = getItems
-module.exports.getChildAbility = getChildAbility
+  
+module.exports.getItems = items
+module.exports.getChildAbility = childAbility
