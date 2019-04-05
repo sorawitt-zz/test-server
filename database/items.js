@@ -94,7 +94,7 @@ const items = [
             {
                 "id": 9,
                 "item_id": 3,
-                "choice": "ซ",
+                "choice": "ก",
                 "correct_answer": 0
             }
         ]
@@ -193,13 +193,13 @@ const items = [
             {
                 "id": 377,
                 "item_id": 119,
-                "choice": "อี",
+                "choice": "ข",
                 "correct_answer": 0
             },
             {
                 "id": 378,
                 "item_id": 119,
-                "choice": "อือ",
+                "choice": "ก",
                 "correct_answer": 0
             }
         ]
@@ -224,7 +224,7 @@ const items = [
             {
                 "id": 14,
                 "item_id": 5,
-                "choice": "ฝ",
+                "choice": "ก",
                 "correct_answer": 0
             },
             {
@@ -307,6 +307,6 @@ const items = [
     }
   }
 
-  
+
 module.exports.getItems = items
 module.exports.getChildAbility = childAbility
