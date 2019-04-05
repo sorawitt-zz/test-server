@@ -57,7 +57,7 @@ const items = [
             {
                 "id": 38,
                 "item_id": 13,
-                "choice": "ฮ",
+                "choice": "ก",
                 "correct_answer": 0
             },
             {
