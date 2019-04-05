@@ -119,7 +119,7 @@ const items = [
             {
                 "id": 218,
                 "item_id": 73,
-                "choice": "ภ",
+                "choice": "ก",
                 "correct_answer": 0
             },
             {
